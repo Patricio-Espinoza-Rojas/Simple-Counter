@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 
 //include images into your bundle
 
@@ -21,6 +22,14 @@ const Home = (props) => {
 	);
   };
 
-  
+ Home.propTypes = {
+	sixth: PropTypes.number,
+	fifth: PropTypes.number,
+	fourth: PropTypes.number,
+	third: PropTypes.number,
+	second: PropTypes.number,
+	first: PropTypes.number,
+  };
+    
 export default Home;
 
