@@ -21,7 +21,7 @@ const Home = (props) => {
 	  </div>
 	);
   };
-
+  
  Home.propTypes = {
 	sixth: PropTypes.number,
 	fifth: PropTypes.number,
