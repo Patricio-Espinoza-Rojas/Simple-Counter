@@ -10,11 +10,11 @@ const Home = (props) => {
 		<div className="container align-items-center text-light display-1 d-flex justify-content-center">
 		  <i className="fa-solid fa-stopwatch mx-1"></i>
 		  <div>
-			<b className="border border-white mx-1">{props.first}</b>
-			<b className="border-white mx-1">{props.second}</b>
-			<b className="border border-white mx-1">{props.third}</b>
-			<b className="border-white mx-1">{props.fourth}</b>
 			<b className="border border-white mx-1">{props.fifth}</b>
+			<b className="border-white mx-1">{props.fourth}</b>
+			<b className="border border-white mx-1">{props.third}</b>
+			<b className="border-white mx-1">{props.second}</b>
+			<b className="border border-white mx-1">{props.first}</b>
 			
 		  </div>
 		</div>
